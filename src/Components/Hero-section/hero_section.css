@@ -1,0 +1,47 @@
+.hire_btn{
+    background: #fff;
+    color: #0E1B31;
+    outline: none;
+    border-radius: 5px;
+    font-size: .9rem;
+    font-weight: 500;
+    padding: 7px 25px;
+}
+
+.hire_btn a{
+    text-decoration: none;
+}
+
+.hire_btn:hover{
+    /* border: 1px #0E1B31; */
+    border-radius: 5px;
+    color: #fff;
+    background: #0E1B31;
+}
+
+.hero_title span{
+    color: #7865ff;
+}
+
+.hero_title{
+    font-weight: 600;
+}
+
+.hero_img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: auto;
+}
+.hero_img img{
+    border-radius: 10px;
+}
+
+.hero_section{
+    padding-top: 150px;
+}
+
+.hero_content p{
+    line-height: 30px;
+    font-weight: 300;
+}
