@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import { Container } from "reactstrap";
 import "./header.css";
 

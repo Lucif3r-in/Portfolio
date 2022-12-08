@@ -1,0 +1,32 @@
+
+
+.table{
+    border:none;
+    border-collapse: collapse;
+    border: 1px solid #7865ff;
+    border-radius: 5px;
+}
+th,td{
+    padding: 1.6rem 1rem !important;
+    background: #7865ff;
+    font-size: 1rem;
+}
+
+thead{
+    color: #fff;
+}
+thead tr{
+    background: #7865ff;
+}
+
+td{
+    font-size: .9rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+tr:nth-child(even){
+    background: #102048;
+}
+tr:first-child{
+}
