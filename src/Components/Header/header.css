@@ -6,7 +6,12 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 1000;
+    /* background: #132347; */
+}
+
+.navigation h5{
+    background: transparent;
 }
 
 .nav_list{
@@ -18,6 +23,10 @@
 .logo h5{
     font-size: 1.3rem;
     color:#7865ff;
+}
+
+.nav_item{
+    background: #132347;
 }
 
 .nav_item a{
@@ -64,4 +73,50 @@
 .header_shrink{
     background: #132347;
     box-shadow: 2px 2px 4px -2px #7765ffbd;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .nav_menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #7765ff69;
+        z-index: 111111;
+        display: none;
+    }
+
+    .nav_list{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        background: #132347;
+        z-index: 9999999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .menu_active{
+        display: block;
+    }
+
+    .mobile_menu{
+        display: block;
+    }
+
+    .btn2{
+        display: none;
+    }
+
+    .header{
+        height: 50px;
+        line-height: 50px;
+    }
 }

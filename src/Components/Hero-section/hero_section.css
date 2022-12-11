@@ -16,7 +16,7 @@
     /* border: 1px #0E1B31; */
     border-radius: 5px;
     color: #fff;
-    background: #0E1B31;
+    /* background: #0E1B31; */
 }
 
 .hero_title span{
@@ -44,4 +44,8 @@
 .hero_content p{
     line-height: 30px;
     font-weight: 300;
+    background: transparent;
+}
+.hero_content h5{
+    background: transparent;
 }

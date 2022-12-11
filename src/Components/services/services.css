@@ -1,0 +1,46 @@
+.single_service{
+    background: #132357;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-bottom: 1px solid #7865ff;
+    transition: .3s;
+}
+h6{
+    background: transparent;
+}
+.single_service p{
+    background: #132357;
+}
+
+.single_service span{
+    background: #132357;
+}
+.single_service h2{
+    font-size: 1.4rem;
+    background: #132357;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.service_icon{
+    color: #7865ff;
+    font-size: 2.2rem;
+}
+
+.service_icon i{
+    background: #132357;
+}
+
+.services_top{
+    color: #7865ff;
+    /* margin-bottom: 25px; */
+}
+
+.service_top h2{
+    margin-bottom: 25px;
+}
+
+.single_service:hover{
+    transform: translateY(-15px);
+}
