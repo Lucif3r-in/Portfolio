@@ -56,3 +56,24 @@
     line-height: 30px;
     font-size: .9rem;
 }
+
+
+@media only screen and (max-width: 992px){
+    .single_experience h6{
+        font-size: .7rem;
+    }
+
+    .single_experience h5{
+        font-size: .9rem;
+        margin-bottom: 10px;
+    }
+
+    .single_experience p{
+        font-size: .7rem;
+        line-height: 28px;
+    }
+
+    .single_experience-container{
+        margin-bottom: 40px;
+    }
+}

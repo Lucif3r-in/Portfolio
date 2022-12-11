@@ -49,3 +49,38 @@
 .hero_content h5{
     background: transparent;
 }
+
+
+@media only screen and (max-width:992px) {
+    .hero_img{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+    }
+
+    .hero_content{
+        font-size: .8rem;
+        margin-bottom: 50px;
+    }
+
+    .hero_btns button{
+        display: block;
+        padding: 5px 20px;
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width:576px)
+{
+    .hero_img{
+        margin: auto;
+    }
+
+    .hero_content{
+        margin-bottom: 50px;
+    }
+
+    .hero_title{
+        font-size: 1.5rem;
+    }
+}

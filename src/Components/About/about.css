@@ -68,3 +68,25 @@
     background: #132347;
 }
 
+
+
+
+@media only screen and (max-width: 992px){
+    .about_btn{
+        padding: 10px 25px;
+        font-size: .8rem;
+    }
+
+    .about_btns{
+        margin-bottom: 40px;
+    }
+
+    .about_content h2{
+        font-size: 1.5rem;
+        line-height: 20px;
+    }
+
+    .about_content p{
+        font-size: .8rem;
+    }
+}

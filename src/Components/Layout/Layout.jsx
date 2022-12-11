@@ -4,10 +4,10 @@ import HeroSection from "../Hero-section/HeroSection";
 import About from "../About/about";
 import Services from "../services/Services";
 import Experience from "../Experience/Experience";
-import Portfolio from "../../Portfolio/Portfolio";
 import Testimonial from "../Testimonial/Testimonial";
 import Contact from "../contact/Contact";
 import Footer from "../Footer/Footer";
+import Portfolio from "../Portfolio/Portfolio";
 
 const Layout = () => {
   return (

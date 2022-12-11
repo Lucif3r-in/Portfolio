@@ -36,6 +36,17 @@
     background: #132347;
 }
 
-.skill_title{
-    /* margin-bottom: 10px; */
+/* .skill_title{
+    margin-bottom: 10px;
+} */
+
+
+@media only screen and (max-width: 992px){
+    .skill_title h6{
+        font-size: .8rem;
+    }
+
+    .skill_title span{
+        font-size: .7rem;
+    }
 }

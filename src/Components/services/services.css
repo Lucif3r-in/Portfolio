@@ -44,3 +44,16 @@ h6{
 .single_service:hover{
     transform: translateY(-15px);
 }
+
+
+@media only screen and (max-width: 992px){
+    .single_service h2{
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+
+    .single_service p{
+        font-size: .7rem;
+        line-height: 28px;
+    }
+}
