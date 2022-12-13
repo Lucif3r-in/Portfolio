@@ -110,7 +110,7 @@ const About = () => {
 
             {aboutFilter === "SKILLS" && <Skills />}
 
-            {aboutFilter === "AWARD" && <Awards />}
+            {/* {aboutFilter === "AWARD" && <Awards />} */}
           </Col>
         </Row>
       </Container>

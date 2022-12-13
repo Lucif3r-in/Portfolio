@@ -14,16 +14,6 @@ const servicesData = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut saepe excepturi veritatis illo velit facilis esse assumenda, corrupti nulla aspernatur.",
   },
   {
-    icon: "ri-qr-code-line",
-    title: "App Development",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut saepe excepturi veritatis illo velit facilis esse assumenda, corrupti nulla aspernatur.",
-  },
-  {
-    icon: "ri-search-line",
-    title: "SEO",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut saepe excepturi veritatis illo velit facilis esse assumenda, corrupti nulla aspernatur.",
-  },
-  {
     icon: "ri-landscape-line",
     title: "Graphic Design",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut saepe excepturi veritatis illo velit facilis esse assumenda, corrupti nulla aspernatur.",
