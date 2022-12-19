@@ -27,7 +27,7 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <section id="services" data-aos="fade-right">
+    <section id="services" data-aos="fade-down" className="serviceSection">
       <Container>
         <Row>
           <Col lg="12" className="service_top">
