@@ -7,12 +7,6 @@ const Form = () => {
   const [enteredEmail, setEnteredEmail] = useState("");
   const [enteredMessage, setEnteredMessage] = useState("");
 
-  const submitHandler = (e) => {
-    e.preverntDefault();
-
-    console.log("submitted");
-  };
-
   return (
     <form className="form">
       <div className="form_input">

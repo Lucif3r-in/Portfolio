@@ -5,7 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 
 import Education from "./Education";
 import Skills from "./Skills";
-import Awards from "./Awards";
+// import Awards from "./Awards";
 
 const About = () => {
   const [aboutFilter, setAboutFilter] = useState("ABOUT");
@@ -77,27 +77,27 @@ const About = () => {
                   <div className="social_links">
                     <h6 className="mb-4 w-100">Connect with me:</h6>
                     <span>
-                      <a href="#">
+                      <a href="https://www.facebook.com/profile.php?id=100088607509641">
                         <i class="ri-facebook-fill"></i>
                       </a>
                     </span>
                     <span>
-                      <a href="#">
+                      <a href="https://www.instagram.com/v_ashu_dev_/">
                         <i class="ri-instagram-fill"></i>
                       </a>
                     </span>
                     <span>
-                      <a href="#">
+                      <a href="https://github.com/Lucif3r-in">
                         <i class="ri-github-fill"></i>
                       </a>
                     </span>
                     <span>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/in/ashutosh-rath-966176223/">
                         <i class="ri-linkedin-box-fill"></i>
                       </a>
                     </span>
                     <span>
-                      <a href="#">
+                      <a href="ashutosh123rath@gmail.com">
                         <i class="ri-mail-fill"></i>
                       </a>
                     </span>

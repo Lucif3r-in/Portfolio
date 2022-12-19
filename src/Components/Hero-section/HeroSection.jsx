@@ -4,8 +4,6 @@ import "./hero_section.css";
 import { Container, Row, Col } from "reactstrap";
 import { init } from "ityped";
 
-// import Typewriter from "typewriter-effect";
-
 const HeroSection = () => {
   const textRef = useRef();
 
@@ -21,20 +19,6 @@ const HeroSection = () => {
       ],
     });
   }, []);
-  //   <Typewriter
-  //     options={{
-  //       strings: [
-  //         "Ashutosh Rath",
-  //         "a Web Developer",
-  //         "a Competitve Programmer",
-  //         "a Content Creator",
-  //       ],
-  //       autoStart: true,
-  //       delay: 75,
-  //       loop: true,
-  //     }}
-  //   />;
-
   return (
     <section className="hero_section" id="home">
       <Container>
