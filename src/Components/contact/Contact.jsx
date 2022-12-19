@@ -6,7 +6,7 @@ import Form from "../form/Form";
 
 const Contact = () => {
   return (
-    <section id="contact">
+    <section id="contact" data-aos="fade-up" data-aos-duration="1000">
       <Container>
         <Row>
           <Col lg="12" className="mb-5">

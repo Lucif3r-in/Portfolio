@@ -26,7 +26,7 @@ const portfolioData = [
 
 const Portfolio = () => {
   return (
-    <section id="portfolio">
+    <section id="portfolio" data-aos="fade-right">
       <Container>
         <Row>
           <Col lg="12" className="portfolio_top mb-5">

@@ -30,7 +30,7 @@ const developmentExperienceData2 = [
 
 const Experience = () => {
   return (
-    <section>
+    <section data-aos="fade-left">
       <Container>
         <Row>
           <Col lg="12" className="mb-5 experience_title">

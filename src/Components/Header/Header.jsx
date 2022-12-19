@@ -80,7 +80,7 @@ const Header = () => {
           </div>
 
           <div className="nav_right d-flex align-items-center gap-4">
-            <button className="btn2">Let's talk</button>
+            {/* <button className="btn2">Let's talk</button> */}
             <span className="mobile_menu">
               <i class="ri-menu-5-line" onClick={menuToggle}></i>
             </span>

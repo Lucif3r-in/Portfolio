@@ -8,10 +8,9 @@
   padding: 0;
   box-sizing: border-box;
   background: #0e1b31;
+  width: 100%;
 }
 
-body{
-}
 
 html{
   scroll-behavior: smooth;
@@ -58,6 +57,7 @@ a:hover{
 section,footer{
   /* background: #132357; */
   padding: 60px 0%;
+  width: 100%;
 }
 
 

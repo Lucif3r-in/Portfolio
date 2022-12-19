@@ -17,7 +17,7 @@ const Testimonial = () => {
   };
 
   return (
-    <section>
+    <section data-aos="flip-up">
       <Container>
         <Row>
           <Col lg="12" className="mb-5 text-center">

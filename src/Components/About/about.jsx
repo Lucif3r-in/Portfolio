@@ -11,7 +11,7 @@ const About = () => {
   const [aboutFilter, setAboutFilter] = useState("ABOUT");
 
   return (
-    <section id="about">
+    <section id="about" data-aos="fade-down">
       <Container>
         <Row>
           <Col lg="12" className="mb-5">
